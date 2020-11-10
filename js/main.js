@@ -4,6 +4,7 @@ $("pre").click( function(){
     $(this).css({
       visibility:"visible",
     })
+    vid.play();vid
   });
 });
   setTimeout(function(){

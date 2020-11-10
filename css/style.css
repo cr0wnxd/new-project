@@ -7,10 +7,6 @@ body {
   overflow: hidden;
 }
 
-iframe {
-  display:none;
-}
-
 #vid {
     position: fixed;;
     top: 51%;
@@ -21,12 +17,13 @@ iframe {
     height: auto;
     z-index: -1;
     transform: translate(-50%, -50%);
-    filter: blur(8px)grayscale(1);
+    filter: blur(8px) brightness(0.3);
     pointer-events: none;
 }
 
 .linkContainer {
   position: fixed;
+  cursor:pointer;
   text-align: center;
   top: 56%;
   left: 48%;
@@ -34,13 +31,13 @@ iframe {
 
 a {
   display: none;
-  color: #89ABE3FF;
+  color: #9CC3D5FF;
   text-decoration: none;
+ cursor:default;
   font-family: MuseoSans;;
   font-weight:500;
   font-size:25px;
   transition: 0.5s;
-  cursor:pointer;
     -webkit-touch-callout: none; /* iOS Safari */
   -webkit-user-select: none; /* Safari */
   -khtml-user-select: none; /* Konqueror HTML */
@@ -51,7 +48,7 @@ a {
 
 a:hover {
   display: none;
-  color: #CBCE91FF;
+  color: #ADEFD1FF;
   font-weight: 800;
 }
 
@@ -61,8 +58,8 @@ pre{
   left: 34%;
   font-size: 15px;
   font-weight: 400;
-  color: #89ABE3FF;
-  transition: 0.8s;
+  color:#9CC3D5FF;
+  transition: 0.3s;
   -webkit-touch-callout: none; /* iOS Safari */
   -webkit-user-select: none; /* Safari */
   -khtml-user-select: none; /* Konqueror HTML */
@@ -72,6 +69,7 @@ pre{
 }
 
 pre:hover {
-  color: #CBCE91FF;
-  transition: 0.8s;
+  color: #ADEFD1FF;
+  font-weight: 700;
+  transition: 0.3s;
 }
