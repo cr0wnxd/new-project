@@ -17,7 +17,7 @@ body {
     height: auto;
     z-index: -1;
     transform: translate(-50%, -50%);
-    filter: blur(8px) brightness(0.3);
+    filter: blur(3px) brightness(0.7);
     pointer-events: none;
 }
 
@@ -30,12 +30,12 @@ body {
 
 a {
   display: none;
-  color: #9CC3D5FF;
+  color: #E69A8DFF;
   text-decoration: none;
  cursor:default;
   font-family: MuseoSans;;
   font-weight:500;
-  font-size:25px;
+  font-size:35px;
   transition: 0.5s;
     -webkit-touch-callout: none; /* iOS Safari */
   -webkit-user-select: none; /* Safari */
@@ -47,17 +47,17 @@ a {
 
 a:hover {
   display: none;
-  color: #ADEFD1FF;
+  color: #5F4B8BFF;
   font-weight: 800;
 }
 
 pre{
   position: fixed;
-  top: 38%;
-  left: 34%;
-  font-size: 15px;
+  top: 27%;
+  left: 39%;
+  font-size: 22px;
   font-weight: 400;
-  color:#9CC3D5FF;
+  color: #E69A8DFF;
   transition: 0.3s;
   -webkit-touch-callout: none; /* iOS Safari */
   -webkit-user-select: none; /* Safari */
@@ -68,7 +68,6 @@ pre{
 }
 
 pre:hover {
-  color: #ADEFD1FF;
-  font-weight: 700;
+  color: #5F4B8BFF;
   transition: 0.3s;
 }
